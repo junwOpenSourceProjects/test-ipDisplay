@@ -1,13 +1,19 @@
-# 🌍 JOSP-IPDisplay - IP地址展示系统
+# 🌍 JOSP-IPDisplay - IP地址地理位置查询工具
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot)
-![Vue](https://img.shields.io/badge/Vue-3.x-brightgreen?logo=vue.js)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen?logo=springboot)
+![ip2region](https://img.shields.io/badge/ip2region-2.7.0-blue)
 ![License](https://img.shields.io/badge/License-AGPL--3.0-blue)
 
 ## 📖 项目简介
 
-JOSP-IPDisplay是一个IP地址信息展示系统,提供IP地址查询、地理位置定位、访问统计等功能,可用于网站访问分析、用户地域分布统计等场景。
+JOSP-IPDisplay是一个基于ip2region库的IP地址地理位置查询工具,提供离线IP地址定位功能。支持通过IP地址查询国家、省份、城市、运营商等信息,查询速度快(微秒级),准确度高。
+
+**核心功能**:
+- 离线IP地理位置查询(无需联网)
+- 支持国家、省份、城市、运营商信息查询
+- 微秒级查询速度
+- 基于ip2region开源库
 
 ## 🏗️ 系统架构
 
